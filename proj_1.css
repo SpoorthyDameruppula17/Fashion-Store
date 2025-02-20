@@ -1,0 +1,196 @@
+body{
+    font-family: Roboto, Arial;
+}
+.main-heading{
+    color: white;
+    background-color: rgb(138, 96, 200);
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    margin: 0px;
+}
+.items{
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: 90px 90px 90px 90px 90px 90px;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.div-T-Shirts{
+    display: grid;
+    grid-template-rows: 90px 90px;
+    margin: 6px;
+    padding-top: 10px;
+}
+.T-Shirts{
+    height: 90px;
+    width: 90px;
+}
+.p-T-Shirts{
+    width: 90px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin: 10px;
+    padding-top: 8px;
+}
+.div-Sun-Glasses{
+    display: grid;
+    grid-row: 90px 90px;
+    margin: 6px;
+}
+.Sun-Glasses{
+    height: 60px;
+    width: 90px;
+    padding-top: 23px;
+}
+.p-Sun-Glasses{
+    width: 70px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: -10px;
+    padding-top: 0px;
+}
+.div-Shirts{
+    display: grid;
+    grid-row: 90px 90px ;
+    margin: 8px;
+}
+.Shirts{
+    height: 90px;
+    width: 90px;
+    padding-top: 10px;
+}
+.p-Shirts{
+    width: 70px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: -30px;
+}
+.div-Shoes{
+    display: grid;
+    grid-row: 90px 90px ;
+    margin: 8px;
+}
+.Shoes{
+    height: 75px;
+    width: 90px;
+    padding-top: 20px;
+}
+.p-Shoes{
+    width: 70px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: -25px;
+}
+.div-Pants{
+    display: grid;
+    grid-row: 90px 90px ;
+    margin: 8px;
+}
+.p-Pants{
+    width: 60px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: -25px;
+}
+.Pants{
+    height: 70px;
+    width: 70px;
+    padding-top: 20px;
+}
+.div-Perfumes{
+    display: grid;
+    grid-row: 90px 90px ;
+    margin: 8px;
+}
+.Perfumes{
+    height: 80px;
+    width: 80px;
+    padding-top: 15px;
+    margin-left: -15px;
+}
+.p-Perfumes{
+    width: 60px;
+    font-weight: 700;
+    margin: 10px;
+    margin-left: -7px;
+    margin-top: -25px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0
+}
+.first-image{
+    max-width: 80%;
+    flex-grow: 1;
+    height: 300px;
+    margin-top: 30px;
+}
+table, tr, td, th{
+    border: 1px solid gray;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgb(226, 220, 220);
+}
+td{
+    padding-left: 10px;
+}
+#d{
+    text-decoration: line-through;
+    padding-right: 8px;
+}
+#festival, #start, #end{
+    width: 130px;
+}
+#discount{
+    padding: 25px;
+}
+#d, #discount{
+    display: inline-block;
+    border: none;
+}
+
+.total-div{
+    background-color: rgb(226, 220, 220);
+}
+.table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+#h{
+    background-color: rgb(138, 96, 200);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1,h2{
+    color: gray;
+}
+.cmpy_sales{
+    color: black;
+    text-align: center;
+}
+.p1{
+    color: gray;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 21px;
+    margin: -8px;
+}
