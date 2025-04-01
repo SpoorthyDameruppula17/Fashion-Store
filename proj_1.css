@@ -23,6 +23,7 @@ body{
     grid-template-rows: 90px 90px;
     margin: 6px;
     padding-top: 10px;
+    cursor: pointer;
 }
 .T-Shirts{
     height: 90px;
